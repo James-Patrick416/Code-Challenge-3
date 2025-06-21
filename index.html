@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog Post Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Blog Post Manager</h1>
+        <p>Manage your blog posts here!</p>
+    </header>
+
+    <main>
+        <!--form to add new posts-->
+        <section id="form-section">
+            <h2>Add New Posts</h2>
+            <form id="new-post-form">
+                <!--input fields for post data-->
+                <div class="form-group">
+                    <label for="title">Title:</label>
+                    <input type="text" id="title" name="title" required>
+                </div>
+
+                <div class="form-group">
+                    <label for="content">Content:</label>
+                    <textarea name="content" id="content" required></textarea>
+                </div>
+
+                <div class="form-group">
+                    <label for="author">Author:</label>
+                    <input type="text" id="author" name="author" required>
+                </div>
+
+                <button type="submit">Create Post</button>
+            </form>
+        </section>
+        <!-- list of all blog posts-->
+        <section id="posts-section">
+            <h2>Your Posts</h2>
+            <div id="post-list">
+                <!--the other stuff like class id title and button will be added by javascript-->
+            </div>
+        </section>
+        <!--detailed single post viewport-->
+        <section id="detail-section">
+            <h2>Post Details</h2>
+            <div id="post-detail">
+                <!--the other stuff like title class will be added by javascript--> 
+            </div>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>
