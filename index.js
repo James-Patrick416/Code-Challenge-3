@@ -178,9 +178,9 @@ function addNewPostListener() {
     });
 }
 
-// ======================
+
 // HELPER FUNCTIONS (FOR FUTURE USE)
-// ======================
+
 
 /**
  * Displays an error message in the UI
