@@ -1,4 +1,4 @@
-/* ===== BASE STYLES ===== */
+
 body {
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   line-height: 1.6;
@@ -40,7 +40,7 @@ main {
   grid-column: span 2;
 }
 
-/* ===== FORM STYLES ===== */
+/*  FORM STYLES  */
 #new-post-form {
   display: flex;
   flex-direction: column;
@@ -85,7 +85,7 @@ button[type="submit"]:hover {
   background: #2980b9;
 }
 
-/* ===== POST LIST STYLES ===== */
+/*  POST LIST STYLES */
 #post-list {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -129,7 +129,7 @@ button[type="submit"]:hover {
   cursor: pointer;
 }
 
-/* ===== POST DETAIL STYLES ===== */
+/*  POST DETAIL STYLES  */
 #post-detail {
   background: white;
   padding: 30px;
@@ -155,7 +155,7 @@ button[type="submit"]:hover {
   line-height: 1.8;
 }
 
-/* ===== RESPONSIVE DESIGN ===== */
+/* RESPONSIVE DESIGN  */
 @media (max-width: 768px) {
   main {
     grid-template-columns: 1fr;
