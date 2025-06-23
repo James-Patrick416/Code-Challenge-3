@@ -1,3 +1,18 @@
 {
-  "posts": []
+  "posts": [
+    {
+      "id": 1,
+      "title": "First Blog Post",
+      "content": "This is my first blog post content.",
+      "author": "John Doe",
+      "image": ""
+    },
+    {
+      "id": 2,
+      "title": "Second Post",
+      "content": "Another interesting post about web development.",
+      "author": "Jane Smith",
+      "image": ""
+    }
+  ]
 }
